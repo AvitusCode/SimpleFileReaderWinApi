@@ -1,0 +1,21 @@
+#include "menuid.h"
+
+MyMenu MENU
+     {
+     POPUP "&File"
+          {
+          MENUITEM "&Open...",               IDM_OPEN
+          MENUITEM SEPARATOR
+          MENUITEM "&Exit",                  IDM_EXIT
+          }
+     POPUP "&View"
+          {
+          MENUITEM "&Without layout",        IDM_VER1
+          MENUITEM "&With layout",           IDM_VER2
+          }
+     POPUP "&Help"
+          {
+          MENUITEM "&Help...",               IDM_HELP
+          MENUITEM "&About application...",  IDM_ABOUT
+          }
+}
